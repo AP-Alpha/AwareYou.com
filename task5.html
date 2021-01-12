@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5 | Navbar </title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+        body {
+            background-image: url(https://source.unsplash.com/1600x900/?mountain);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        body {
+            background-image: url(https://source.unsplash.com/1600x900/?mountains);
+            -webkit-background-size: cover;
+            background-size: cover;
+            background-position: center center;
+            height: 100vh;
+        }
+
+        .container {
+            width: 860px;
+            margin: 0 auto;
+        }
+
+        .container ul {
+            list-style: none;
+            margin-top: 2%;
+        }
+
+        .container .ip {
+            height: 150px;
+        }
+
+        .container ul li {
+            background: #262626;
+            width: 170px;
+            border: 1px solid #fff;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            float: left;
+            color: #fff;
+            font-size: 16px;
+            position: relative;
+            font-family: Nerko One;
+            font-size: x-large;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .container ul li:hover {
+            background: crimson;
+        }
+
+        .container ul ul {
+            display: none;
+        }
+
+        .container ul li:hover>ul {
+            display: block;
+        }
+
+        .container ul ul ul {
+            margin-left: 170px;
+            top: 0;
+            position: absolute;
+        }
+
+        a {
+            text-decoration: none;
+            color: yellow;
+        }
+
+        a:hover {
+            color: #000;
+        }
+
+        a:active {
+            background-color: teal;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <ul>
+            <li><a href="http://task5.html" target="_blank" rel="noopener noreferrer">Home</a> </li>
+            <li><a href="http://">About</a>
+                <ul>
+                    <li class="ip">Inderprastha Engineering College</li>
+                </ul>
+            </li>
+            <li><a href="http://">Branch</a>
+                <ul class="br">
+                    <li><a href="http://">cse</a></li>
+                    <li><a href="http://">ece</a></li>
+                    <li><a href="http://">civil</a></li>
+                    <li><a href="http://">mec</a></li>
+
+                </ul>
+            </li>
+            <li><a href="http://">Year</a>
+                <ul class="br">
+                    <li><a href="http://">1</a></li>
+                    <li><a href="http://">2</a></li>
+                    <li><a href="http://">3</a></li>
+                    <li><a href="http://">4</a></li>
+
+                </ul>
+            </li>
+            <li><a href="http://">Courses offered</a>
+                <ul class="br">
+                    <li><a href="http://">btech</a>
+                        <ul class="br">
+                            <li><a href="http://">cse</a></li>
+                            <li><a href="http://">ece</a></li>
+                            <li><a href="http://">civil</a></li>
+                            <li><a href="http://">mec</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="http://">mtech</a>
+                        <ul class="br">
+                            <li><a href="http://">cse</a></li>
+                            <li><a href="http://">ece</a></li>
+                            <li><a href="http://">civil</a></li>
+                            <li><a href="http://">mec</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+        </ul>
+    </div>
+</body>
+</html>
