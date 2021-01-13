@@ -1,0 +1,19 @@
+.item{
+padding-right: 10px;
+color: #ffff;
+text-transform: capitalize;
+text-decoration-color: seashell;
+}
+.a{
+    color: seashell;
+}
+.a:hover{
+    /* background-color: rgb(0, 0, 0); */
+    color: white;
+    text-decoration: none;
+}
+.card{
+
+    position: relative;
+    
+}
